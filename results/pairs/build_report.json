@@ -1,0 +1,14 @@
+{
+ "vulnerable_records": 17975,
+ "no_family": 5691,
+ "no_graph_pair": 2311,
+ "duplicate_before": 332,
+ "size_filter": 1,
+ "pairs_kept": 9640,
+ "per_family_pairs": {
+  "integer": 1214,
+  "memory": 7186,
+  "resource": 1221,
+  "crypto": 260
+ }
+}

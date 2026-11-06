@@ -1,0 +1,61 @@
+{'pairs': 13341, 'changed': 9592, 'kept': 13029, 'add_only': 3437, 'unusable': 312}
+input_validation fold 0
+input_validation fold 1
+input_validation fold 2
+input_validation fold 3
+input_validation fold 4
+input_validation 1293 functions, mean lines 61.4 | random hit5 0.35
+   rule {'hit1': 0.111, 'hit3': 0.293, 'hit5': 0.415, 'hit10': 0.588, 'mrr': 0.257, 'ifa': 18.004, 'precision': 0.118, 'recall': 0.218, 'f1': 0.154, 'accuracy': 0.894}
+   token_lr {'hit1': 0.148, 'hit3': 0.301, 'hit5': 0.428, 'hit10': 0.61, 'mrr': 0.283, 'ifa': 17.159, 'precision': 0.127, 'recall': 0.235, 'f1': 0.165, 'accuracy': 0.896}
+   hand_hgb {'hit1': 0.171, 'hit3': 0.326, 'hit5': 0.444, 'hit10': 0.61, 'mrr': 0.302, 'ifa': 17.914, 'precision': 0.129, 'recall': 0.238, 'f1': 0.167, 'accuracy': 0.896}
+   full {'hit1': 0.182, 'hit3': 0.35, 'hit5': 0.452, 'hit10': 0.616, 'mrr': 0.314, 'ifa': 18.218, 'precision': 0.131, 'recall': 0.242, 'f1': 0.17, 'accuracy': 0.896}
+   full_no_extra {'hit1': 0.169, 'hit3': 0.344, 'hit5': 0.462, 'hit10': 0.637, 'mrr': 0.308, 'ifa': 17.827, 'precision': 0.132, 'recall': 0.244, 'f1': 0.172, 'accuracy': 0.897}
+   full_no_context {'hit1': 0.153, 'hit3': 0.315, 'hit5': 0.434, 'hit10': 0.6, 'mrr': 0.288, 'ifa': 18.069, 'precision': 0.128, 'recall': 0.236, 'f1': 0.166, 'accuracy': 0.896}
+concurrency fold 0
+concurrency fold 1
+concurrency fold 2
+concurrency fold 3
+concurrency fold 4
+concurrency 582 functions, mean lines 43.8 | random hit5 0.447
+   rule {'hit1': 0.096, 'hit3': 0.338, 'hit5': 0.497, 'hit10': 0.668, 'mrr': 0.275, 'ifa': 11.746, 'precision': 0.156, 'recall': 0.274, 'f1': 0.199, 'accuracy': 0.857}
+   token_lr {'hit1': 0.182, 'hit3': 0.361, 'hit5': 0.5, 'hit10': 0.667, 'mrr': 0.325, 'ifa': 12.148, 'precision': 0.173, 'recall': 0.305, 'f1': 0.221, 'accuracy': 0.861}
+   hand_hgb {'hit1': 0.213, 'hit3': 0.409, 'hit5': 0.536, 'hit10': 0.698, 'mrr': 0.362, 'ifa': 11.985, 'precision': 0.189, 'recall': 0.333, 'f1': 0.242, 'accuracy': 0.865}
+   full {'hit1': 0.208, 'hit3': 0.404, 'hit5': 0.534, 'hit10': 0.699, 'mrr': 0.358, 'ifa': 12.144, 'precision': 0.189, 'recall': 0.332, 'f1': 0.241, 'accuracy': 0.865}
+   full_no_extra {'hit1': 0.23, 'hit3': 0.435, 'hit5': 0.55, 'hit10': 0.716, 'mrr': 0.38, 'ifa': 11.964, 'precision': 0.195, 'recall': 0.342, 'f1': 0.248, 'accuracy': 0.866}
+   full_no_context {'hit1': 0.199, 'hit3': 0.368, 'hit5': 0.478, 'hit10': 0.675, 'mrr': 0.338, 'ifa': 13.338, 'precision': 0.175, 'recall': 0.308, 'f1': 0.223, 'accuracy': 0.862}
+info_exposure fold 0
+info_exposure fold 1
+info_exposure fold 2
+info_exposure fold 3
+info_exposure fold 4
+info_exposure 561 functions, mean lines 53.2 | random hit5 0.366
+   rule {'hit1': 0.116, 'hit3': 0.287, 'hit5': 0.41, 'hit10': 0.604, 'mrr': 0.257, 'ifa': 18.48, 'precision': 0.117, 'recall': 0.222, 'f1': 0.153, 'accuracy': 0.879}
+   token_lr {'hit1': 0.168, 'hit3': 0.333, 'hit5': 0.44, 'hit10': 0.617, 'mrr': 0.305, 'ifa': 17.308, 'precision': 0.134, 'recall': 0.254, 'f1': 0.175, 'accuracy': 0.882}
+   hand_hgb {'hit1': 0.143, 'hit3': 0.282, 'hit5': 0.396, 'hit10': 0.581, 'mrr': 0.271, 'ifa': 18.586, 'precision': 0.126, 'recall': 0.24, 'f1': 0.165, 'accuracy': 0.881}
+   full {'hit1': 0.112, 'hit3': 0.271, 'hit5': 0.376, 'hit10': 0.572, 'mrr': 0.252, 'ifa': 18.299, 'precision': 0.125, 'recall': 0.237, 'f1': 0.164, 'accuracy': 0.88}
+   full_no_extra {'hit1': 0.155, 'hit3': 0.292, 'hit5': 0.408, 'hit10': 0.567, 'mrr': 0.28, 'ifa': 19.127, 'precision': 0.125, 'recall': 0.239, 'f1': 0.164, 'accuracy': 0.88}
+   full_no_context {'hit1': 0.134, 'hit3': 0.278, 'hit5': 0.389, 'hit10': 0.572, 'mrr': 0.264, 'ifa': 16.964, 'precision': 0.121, 'recall': 0.23, 'f1': 0.159, 'accuracy': 0.88}
+access_control fold 0
+access_control fold 1
+access_control fold 2
+access_control fold 3
+access_control fold 4
+access_control 995 functions, mean lines 48.5 | random hit5 0.382
+   rule {'hit1': 0.132, 'hit3': 0.302, 'hit5': 0.432, 'hit10': 0.626, 'mrr': 0.276, 'ifa': 13.877, 'precision': 0.122, 'recall': 0.229, 'f1': 0.159, 'accuracy': 0.868}
+   token_lr {'hit1': 0.177, 'hit3': 0.378, 'hit5': 0.494, 'hit10': 0.668, 'mrr': 0.329, 'ifa': 12.665, 'precision': 0.148, 'recall': 0.277, 'f1': 0.193, 'accuracy': 0.873}
+   hand_hgb {'hit1': 0.22, 'hit3': 0.41, 'hit5': 0.531, 'hit10': 0.703, 'mrr': 0.364, 'ifa': 13.191, 'precision': 0.153, 'recall': 0.285, 'f1': 0.199, 'accuracy': 0.874}
+   full {'hit1': 0.21, 'hit3': 0.418, 'hit5': 0.542, 'hit10': 0.704, 'mrr': 0.364, 'ifa': 12.516, 'precision': 0.158, 'recall': 0.295, 'f1': 0.206, 'accuracy': 0.875}
+   full_no_extra {'hit1': 0.214, 'hit3': 0.409, 'hit5': 0.547, 'hit10': 0.709, 'mrr': 0.366, 'ifa': 12.413, 'precision': 0.157, 'recall': 0.294, 'f1': 0.205, 'accuracy': 0.875}
+   full_no_context {'hit1': 0.204, 'hit3': 0.396, 'hit5': 0.495, 'hit10': 0.665, 'mrr': 0.35, 'ifa': 13.021, 'precision': 0.145, 'recall': 0.27, 'f1': 0.189, 'accuracy': 0.872}
+robustness fold 0
+robustness fold 1
+robustness fold 2
+robustness fold 3
+robustness fold 4
+robustness 613 functions, mean lines 69.9 | random hit5 0.328
+   rule {'hit1': 0.111, 'hit3': 0.299, 'hit5': 0.408, 'hit10': 0.597, 'mrr': 0.257, 'ifa': 21.272, 'precision': 0.115, 'recall': 0.237, 'f1': 0.155, 'accuracy': 0.911}
+   token_lr {'hit1': 0.116, 'hit3': 0.245, 'hit5': 0.349, 'hit10': 0.537, 'mrr': 0.238, 'ifa': 22.708, 'precision': 0.104, 'recall': 0.216, 'f1': 0.141, 'accuracy': 0.909}
+   hand_hgb {'hit1': 0.122, 'hit3': 0.276, 'hit5': 0.382, 'hit10': 0.563, 'mrr': 0.255, 'ifa': 23.144, 'precision': 0.109, 'recall': 0.225, 'f1': 0.147, 'accuracy': 0.91}
+   full {'hit1': 0.127, 'hit3': 0.277, 'hit5': 0.392, 'hit10': 0.566, 'mrr': 0.259, 'ifa': 23.098, 'precision': 0.111, 'recall': 0.229, 'f1': 0.149, 'accuracy': 0.91}
+   full_no_extra {'hit1': 0.14, 'hit3': 0.287, 'hit5': 0.383, 'hit10': 0.566, 'mrr': 0.267, 'ifa': 22.501, 'precision': 0.108, 'recall': 0.223, 'f1': 0.146, 'accuracy': 0.91}
+   full_no_context {'hit1': 0.148, 'hit3': 0.264, 'hit5': 0.378, 'hit10': 0.538, 'mrr': 0.262, 'ifa': 24.698, 'precision': 0.111, 'recall': 0.23, 'f1': 0.15, 'accuracy': 0.91}
