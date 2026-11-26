@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,f1_score,fp_rate,fn_rate,train_time_s,inference_time_s,total_time_s,peak_memory_mb
+coca,0.3091,0.3404,0.6957,0.4571,0.9688,0.3043,128.481,0.2917,128.7728,831.86

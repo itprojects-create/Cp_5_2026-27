@@ -1,0 +1,1 @@
+{"nodes": [{"id": "pkg_tree_sitter_c", "label": "tree-sitter-c", "file_type": "code", "type": "package", "ecosystem": "python", "source_file": "Tree-sitter/tree-sitter-c/pyproject.toml", "source_location": "L1", "version": "0.24.2"}], "edges": []}

@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,f1_score,fp_rate,fn_rate,train_time_s,inference_time_s,total_time_s,peak_memory_mb
+cryptohgnn,0.3818,0.3962,0.913,0.5526,1.0,0.087,190.4871,0.2275,190.7146,782.28

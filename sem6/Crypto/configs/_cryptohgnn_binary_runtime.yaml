@@ -1,0 +1,36 @@
+architecture:
+  curvature: 1.0
+  dropout: 0.3
+  hidden_channels: 256
+  in_channels: 34
+  num_classes: 2
+  num_layers: 3
+checkpoints:
+  best_model: models/checkpoints/crypto_hgnn_best.pt
+  dir: models/checkpoints
+data:
+  graphs_dir: datasets/interproc_graphs
+  split_dir: data/splits
+  stats_csv: datasets/interproc_stats.csv
+model:
+  class: src.models.cryptohgnn.CryptoHGNN
+  description: "Proposed neuro-symbolic model combining Poincar\xE9 ball hyperbolic\
+    \ GNN (c=1.0) with crypto-semantic graph representations and attention-gated tangent-space\
+    \ pooling.\n"
+  name: CryptoHGNN
+results:
+  figures_dir: results/figures
+  tables_dir: results/tables
+semantic_engine:
+  max_wrapper_depth: 5
+  use_aliases: true
+  use_macros: true
+  use_wrappers: true
+training:
+  batch_size: 8
+  epochs: 300
+  learning_rate: 0.001
+  loss: cross_entropy
+  patience: 30
+  scheduler: cosine
+  weight_decay: 0.0001

@@ -1,0 +1,48 @@
+# configs/coca_config.yaml
+# Coca — Baseline Configuration (ICSE 2024)
+# ==========================================
+# Euclidean GAT (3 layers, 8 heads) + post-hoc gradient subgraph extractor.
+
+model:
+  name: Coca
+  class: src.models.baselines.coca.Coca
+  paper: "Coca: Improving and Explaining Graph Neural Network-Based Vulnerability Detection Systems, ICSE 2024"
+  description: >
+    Baseline: standard 3-layer Euclidean Graph Attention Network (GAT) operating
+    in flat Euclidean space. Post-hoc gradient-based crucial-subgraph extractor
+    approximates the vulnerable slice after neural message passing, missing
+    multi-hop pointer aliases collapsed during the forward pass.
+
+architecture:
+  in_channels: 34
+  hidden_channels: 128
+  num_layers: 3
+  heads: 8                           # Multi-head attention
+  dropout: 0.3
+  num_classes: 2            # binary vulnerable/not-vulnerable (matches CryptoHGNN label scheme)
+  edge_saliency_threshold: 0.75      # Top-25% edge retention threshold
+
+explanation:
+  method: gradient_edge_saliency     # GradCAM-style edge importance
+  threshold_percentile: 0.75
+  post_hoc: true                     # Decoupled from training (known limitation)
+
+training:
+  epochs: 300
+  batch_size: 8
+  learning_rate: 0.001
+  weight_decay: 1.0e-4
+  patience: 30
+  scheduler: cosine
+  loss: cross_entropy
+
+data:
+  graphs_dir: datasets/interproc_graphs
+  stats_csv:  datasets/interproc_stats.csv
+
+checkpoints:
+  best_model: models/checkpoints/coca_best.pt
+
+results:
+  tables_dir:  results/tables
+  figures_dir: results/figures

@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,f1_score,fp_rate,fn_rate,train_time_s,inference_time_s,total_time_s,peak_memory_mb
+fusion_hgnn,1.0,1.0,1.0,1.0,0.0,0.0,101.9928,0.2311,102.2239,798.23

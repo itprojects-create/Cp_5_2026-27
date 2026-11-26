@@ -1,0 +1,1 @@
+{"nodes": [{"id": "$graphify-root$_tree_sitter_tree_sitter_c_bindings_c_tree_sitter_tree_sitter_c_h", "label": "tree-sitter-c.h", "file_type": "code", "source_file": "Tree-sitter/tree-sitter-c/bindings/c/tree_sitter/tree-sitter-c.h", "source_location": "L1"}], "edges": [], "raw_calls": [], "parse_errors": {"first_error_line": 12, "multiline_error": false}}

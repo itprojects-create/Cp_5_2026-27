@@ -1,0 +1,52 @@
+[
+  {
+    "file": "Day5_test/direct_real_api.c",
+    "status": "ok",
+    "return_code": 0,
+    "literal_key_like_variables": 1,
+    "cryptographic_call_sites": 1,
+    "runtime_key_source_calls": 0,
+    "confirmed_literal_to_crypto_flows": 1,
+    "verdict": "CONFIRMED_FLOW"
+  },
+  {
+    "file": "Day5_test/logging_only_real.c",
+    "status": "ok",
+    "return_code": 0,
+    "literal_key_like_variables": 0,
+    "cryptographic_call_sites": 0,
+    "runtime_key_source_calls": 0,
+    "confirmed_literal_to_crypto_flows": 0,
+    "verdict": "NO_CONFIRMED_FLOW"
+  },
+  {
+    "file": "Day5_test/macro_real_api.c",
+    "status": "ok",
+    "return_code": 0,
+    "literal_key_like_variables": 1,
+    "cryptographic_call_sites": 1,
+    "runtime_key_source_calls": 0,
+    "confirmed_literal_to_crypto_flows": 1,
+    "verdict": "CONFIRMED_FLOW"
+  },
+  {
+    "file": "Day5_test/runtime_real_api.c",
+    "status": "ok",
+    "return_code": 0,
+    "literal_key_like_variables": 0,
+    "cryptographic_call_sites": 1,
+    "runtime_key_source_calls": 0,
+    "confirmed_literal_to_crypto_flows": 0,
+    "verdict": "NO_CONFIRMED_FLOW"
+  },
+  {
+    "file": "Day5_test/wrapper_real_api.c",
+    "status": "ok",
+    "return_code": 0,
+    "literal_key_like_variables": 1,
+    "cryptographic_call_sites": 1,
+    "runtime_key_source_calls": 0,
+    "confirmed_literal_to_crypto_flows": 0,
+    "verdict": "NO_CONFIRMED_FLOW"
+  }
+]

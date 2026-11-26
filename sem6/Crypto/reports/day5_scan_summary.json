@@ -1,0 +1,12 @@
+{
+  "scan_root": "C:\\Users\\heram\\Desktop\\Crypto\\Day5_test",
+  "total_files": 5,
+  "successful_files": 5,
+  "error_files": 0,
+  "confirmed_flow_files": 2,
+  "no_confirmed_flow_files": 3,
+  "total_literal_key_like_variables": 3,
+  "total_cryptographic_call_sites": 4,
+  "total_runtime_key_source_calls": 0,
+  "total_confirmed_literal_to_crypto_flows": 2
+}

@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# External dataset repositories
+datasets/MSR_20_Code_vulnerability_CSV_Dataset/
+datasets/juliet/
+
+# Model checkpoints (too large for git)
+models/checkpoints/*.pt
+
+# Dataset graphs (too large for git)
+datasets/graphs/*.pt
+datasets/interproc_graphs/
+datasets/case_studies/
+
+# Visualizations (generated)
+visualizations/*.html
+
+# Results (generated)
+results/*.csv
+*.pdf
+
+!README.md
+!REPRODUCE.md
+!Development/plan.md
+!docs/**/*.md
+!results/tables/*.csv
+!results/predictions/*.csv
+
+# Paper auxiliary files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.bbl
+
+.dist/
+data/log/*.log
+
+.pytest_cache/
+explain.md
+Plan.md
+
+# Graphify machine-local paths
+graphify-out/.graphify_python
+graphify-out/.graphify_root 
+
+visualizations/

@@ -1,0 +1,102 @@
+{
+  "EVP_EncryptInit_ex": {
+    "key_index": 3,
+    "iv_index": 4,
+    "cipher_index": 1,
+    "ctx_index": 0,
+    "library": "OpenSSL",
+    "description": "Initializes cipher context with cipher type, key, and IV."
+  },
+  "EVP_DecryptInit_ex": {
+    "key_index": 3,
+    "iv_index": 4,
+    "cipher_index": 1,
+    "ctx_index": 0,
+    "library": "OpenSSL",
+    "description": "Initializes decryption cipher context."
+  },
+  "EVP_CipherInit_ex": {
+    "key_index": 3,
+    "iv_index": 4,
+    "cipher_index": 1,
+    "ctx_index": 0,
+    "library": "OpenSSL",
+    "description": "Generic cipher initialization."
+  },
+  "AES_set_encrypt_key": {
+    "key_index": 0,
+    "bits_index": 1,
+    "ctx_index": 2,
+    "library": "OpenSSL",
+    "description": "Sets raw AES encryption key bits into key schedule structure."
+  },
+  "AES_set_decrypt_key": {
+    "key_index": 0,
+    "bits_index": 1,
+    "ctx_index": 2,
+    "library": "OpenSSL",
+    "description": "Sets raw AES decryption key bits into key schedule structure."
+  },
+  "CryptEncrypt": {
+    "key_index": 0,
+    "hash_index": 1,
+    "final_index": 2,
+    "flags_index": 3,
+    "data_index": 4,
+    "library": "Windows CryptoAPI",
+    "description": "Encrypts data using a handle to a cryptographic key."
+  },
+  "CryptDecrypt": {
+    "key_index": 0,
+    "hash_index": 1,
+    "final_index": 2,
+    "flags_index": 3,
+    "data_index": 4,
+    "library": "Windows CryptoAPI",
+    "description": "Decrypts data using a handle to a cryptographic key."
+  },
+  "CryptDeriveKey": {
+    "prov_index": 0,
+    "alg_index": 1,
+    "base_data_index": 2,
+    "flags_index": 3,
+    "key_index": 4,
+    "library": "Windows CryptoAPI",
+    "description": "Derives a session key from base data (password/hash)."
+  },
+  "DES_set_key": {
+    "key_index": 0,
+    "schedule_index": 1,
+    "library": "OpenSSL",
+    "description": "Sets single-DES key into schedule structure."
+  },
+  "RSA_public_encrypt": {
+    "flen_index": 0,
+    "from_index": 1,
+    "to_index": 2,
+    "rsa_index": 3,
+    "padding_index": 4,
+    "library": "OpenSSL",
+    "description": "Encrypts data using an RSA public key."
+  },
+  "CWE_RULES": {
+    "CWE-321": {
+      "type": "hardcoded_key",
+      "target": ["key_index"]
+    },
+    "CWE-327": {
+      "type": "broken_crypto",
+      "target": ["cipher_index", "alg_index", "hash_index"],
+      "bad_values": ["MD5", "DES", "RC4", "EVP_des_cbc", "EVP_rc4", "CALG_MD5", "CALG_DES", "CALG_RC4"]
+    },
+    "CWE-338": {
+      "type": "weak_prng",
+      "target": ["key_index", "iv_index"],
+      "bad_sources": ["rand", "srand", "random"]
+    },
+    "CWE-329": {
+      "type": "hardcoded_nonce",
+      "target": ["iv_index"]
+    }
+  }
+}

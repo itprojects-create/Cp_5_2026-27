@@ -1,0 +1,47 @@
+# configs/fusion_hgnn_config.yaml
+# Fusion-HGNN — Baseline Configuration (IEEE TSE 2024 / 2026)
+# =============================================================
+# Dense unpruned fusion graph, Poincaré ball curvature c=3.5,
+# global mean pooling (no attention gating).
+
+model:
+  name: FusionHGNN
+  class: src.models.baselines.fusion_hgnn.FusionHGNN
+  paper: "Fusion-HGNN: Heterogeneous Graph Neural Network for Code Vulnerability Detection, IEEE TSE 2026"
+  description: >
+    Baseline: accepts complete raw code graph (AST+CFG+DDG fused) without
+    symbolic alias pruning. Embeds on Poincaré ball (c=3.5) with global
+    mean pooling — no crypto-role gating or tangent-space attention.
+
+architecture:
+  in_channels: 34
+  hidden_channels: 256
+  num_layers: 3
+  curvature: 3.5             # Higher curvature — stronger hierarchical compression
+  dropout: 0.3
+  num_classes: 2            # binary vulnerable/not-vulnerable (matches CryptoHGNN label scheme)
+
+graph_construction:
+  pruned: false              # Full unpruned fusion graph
+  alias_resolution: false    # No symbolic alias analysis
+  crypto_role_gating: false  # No crypto-semantic feature filtering
+
+training:
+  epochs: 300
+  batch_size: 8
+  learning_rate: 0.001
+  weight_decay: 1.0e-4
+  patience: 30
+  scheduler: cosine
+  loss: cross_entropy
+
+data:
+  graphs_dir: datasets/interproc_graphs
+  stats_csv:  datasets/interproc_stats.csv
+
+checkpoints:
+  best_model: models/checkpoints/fusion_hgnn_best.pt
+
+results:
+  tables_dir:  results/tables
+  figures_dir: results/figures

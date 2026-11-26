@@ -1,0 +1,48 @@
+# configs/cryptohgnn_config.yaml
+# CryptoHGNN — Proposed Model Configuration
+# ==========================================
+# Poincaré ball curvature c=1.0, 3-layer hyperbolic GNN,
+# tangent-space attention readout.
+
+model:
+  name: CryptoHGNN
+  class: src.models.cryptohgnn.CryptoHGNN
+  description: >
+    Proposed neuro-symbolic model combining Poincaré ball hyperbolic GNN (c=1.0)
+    with crypto-semantic graph representations and attention-gated tangent-space pooling.
+
+architecture:
+  in_channels: 34            # NODE_FEATURE_DIM (graph_schema.py)
+  hidden_channels: 256
+  num_layers: 3
+  curvature: 1.0             # Poincaré ball curvature
+  dropout: 0.3
+  num_classes: 5             # CWE-321, CWE-327, CWE-338, CWE-256, CWE-259
+
+training:
+  epochs: 300
+  batch_size: 8
+  learning_rate: 0.001
+  weight_decay: 1.0e-4
+  patience: 30               # Early-stopping patience (epochs w/o val-loss improvement)
+  scheduler: cosine          # LR scheduler: cosine | step | none
+  loss: cross_entropy
+
+data:
+  graphs_dir: datasets/interproc_graphs
+  stats_csv:  datasets/interproc_stats.csv
+  split_dir:  data/splits
+
+semantic_engine:
+  use_macros:   true
+  use_wrappers: true
+  use_aliases:  true
+  max_wrapper_depth: 5
+
+checkpoints:
+  dir: models/checkpoints
+  best_model: models/checkpoints/crypto_hgnn_best.pt
+
+results:
+  tables_dir:  results/tables
+  figures_dir: results/figures
