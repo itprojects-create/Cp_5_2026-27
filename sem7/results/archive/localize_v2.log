@@ -1,0 +1,203 @@
+{'pairs': 9641, 'kept': 6726, 'no_deleted_line': 2659, 'unusable': 256}
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+memory fold 0
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+memory fold 1
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+memory fold 2
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+memory fold 3
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+<repo>\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+memory fold 4
+memory 5042 functions, mean lines 73.0 | random hit5 0.364
+   rule {'hit1': 0.139, 'hit3': 0.302, 'hit5': 0.402, 'mrr': 0.27, 'precision': 0.124, 'recall': 0.171, 'f1': 0.143, 'accuracy': 0.899}
+   token_lr {'hit1': 0.146, 'hit3': 0.305, 'hit5': 0.424, 'mrr': 0.279, 'precision': 0.141, 'recall': 0.195, 'f1': 0.163, 'accuracy': 0.902}
+   hand_hgb {'hit1': 0.171, 'hit3': 0.337, 'hit5': 0.438, 'mrr': 0.301, 'precision': 0.147, 'recall': 0.203, 'f1': 0.171, 'accuracy': 0.902}
+   full {'hit1': 0.181, 'hit3': 0.348, 'hit5': 0.449, 'mrr': 0.313, 'precision': 0.149, 'recall': 0.206, 'f1': 0.173, 'accuracy': 0.903}
+integer fold 0
+integer fold 1
+integer fold 2
+integer fold 3
+integer fold 4
+integer 875 functions, mean lines 63.2 | random hit5 0.34
+   rule {'hit1': 0.103, 'hit3': 0.256, 'hit5': 0.381, 'mrr': 0.239, 'precision': 0.107, 'recall': 0.19, 'f1': 0.137, 'accuracy': 0.893}
+   token_lr {'hit1': 0.225, 'hit3': 0.426, 'hit5': 0.553, 'mrr': 0.377, 'precision': 0.171, 'recall': 0.302, 'f1': 0.219, 'accuracy': 0.903}
+   hand_hgb {'hit1': 0.198, 'hit3': 0.375, 'hit5': 0.502, 'mrr': 0.338, 'precision': 0.145, 'recall': 0.255, 'f1': 0.185, 'accuracy': 0.899}
+   full {'hit1': 0.248, 'hit3': 0.463, 'hit5': 0.565, 'mrr': 0.397, 'precision': 0.172, 'recall': 0.304, 'f1': 0.22, 'accuracy': 0.904}
+resource fold 0
+resource fold 1
+resource fold 2
+resource fold 3
+resource fold 4
+resource 825 functions, mean lines 64.3 | random hit5 0.407
+   rule {'hit1': 0.152, 'hit3': 0.312, 'hit5': 0.441, 'mrr': 0.287, 'precision': 0.139, 'recall': 0.183, 'f1': 0.158, 'accuracy': 0.885}
+   token_lr {'hit1': 0.124, 'hit3': 0.279, 'hit5': 0.387, 'mrr': 0.254, 'precision': 0.144, 'recall': 0.189, 'f1': 0.163, 'accuracy': 0.886}
+   hand_hgb {'hit1': 0.158, 'hit3': 0.335, 'hit5': 0.442, 'mrr': 0.294, 'precision': 0.151, 'recall': 0.198, 'f1': 0.171, 'accuracy': 0.887}
+   full {'hit1': 0.16, 'hit3': 0.328, 'hit5': 0.425, 'mrr': 0.291, 'precision': 0.148, 'recall': 0.195, 'f1': 0.168, 'accuracy': 0.886}
+crypto fold 0
+crypto fold 1
+crypto fold 2
+crypto fold 3
+crypto fold 4
+crypto 175 functions, mean lines 54.2 | random hit5 0.456
+   rule {'hit1': 0.109, 'hit3': 0.343, 'hit5': 0.48, 'mrr': 0.283, 'precision': 0.17, 'recall': 0.215, 'f1': 0.19, 'accuracy': 0.866}
+   token_lr {'hit1': 0.143, 'hit3': 0.349, 'hit5': 0.474, 'mrr': 0.296, 'precision': 0.167, 'recall': 0.211, 'f1': 0.186, 'accuracy': 0.865}
+   hand_hgb {'hit1': 0.154, 'hit3': 0.246, 'hit5': 0.371, 'mrr': 0.269, 'precision': 0.146, 'recall': 0.185, 'f1': 0.163, 'accuracy': 0.862}
+   full {'hit1': 0.137, 'hit3': 0.309, 'hit5': 0.406, 'mrr': 0.282, 'precision': 0.161, 'recall': 0.203, 'f1': 0.18, 'accuracy': 0.864}
